@@ -54,7 +54,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button>Resume</Button>
+          <a href={Resume} target="_blank">
+            <Button>Resume</Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}

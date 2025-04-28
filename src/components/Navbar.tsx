@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Resume from "../assets/vedant-resume.pdf";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -108,7 +109,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button className="w-full mb-2">Resume</Button>
+          <a href={Resume} target="_blank">
+            <Button>Resume</Button>
+          </a>
         </div>
       </div>
     </nav>

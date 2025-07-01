@@ -18,14 +18,14 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "DevBeacons",
+      title: "NeuroStore",
       description:
-        "DevBeacons project (a real-time CI/CD pipeline status monitor with WebSockets, Slack/Discord notifications, and dashboards), you want to highlight both the technical depth and the problem-solving aspect of your role.",
+        "NeuroStore is a file storing, sharing and editing environment where user can store their files in safe environment and can upload their local files to host it in the browser safely. We took the inspiration of building this project from DropBox.",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
-      tags: ["NodeJs", "ReactJs", "Azure", "CI/CD"],
-      liveUrl: "https://devbeacon.vercel.app/",
-      githubUrl: "https://github.com/jayeshakhare33/CI-CD-Pipeline-Monitor",
+      tags: ["NodeJs", "ReactJs", "AWS(S3)", "OAuth2.0"],
+      liveUrl: "https://github.com/shrey209/NeuroStore",
+      githubUrl: "https://github.com/shrey209/NeuroStore",
     },
     {
       id: 3,

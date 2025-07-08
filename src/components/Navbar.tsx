@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import Resume from "../assets/vedant-resume.pdf";
+import Resume from "../assets/Vedant_Kumbhare_resume.pdf";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

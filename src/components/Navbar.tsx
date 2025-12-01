@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import Resume from "../assets/Vedant_Kumbhare_resume.pdf";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,7 +53,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <a href={Resume} target="_blank">
+          <a href="https://drive.google.com/file/d/1NJfxJZs9ipkzMbPyWDYLoyCf_kikCNFg/view?usp=sharing" target="_blank">
             <Button>Resume</Button>
           </a>
         </div>
@@ -121,3 +120,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

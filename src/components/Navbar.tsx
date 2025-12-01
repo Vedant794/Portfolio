@@ -110,7 +110,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <a href={Resume} target="_blank">
+          <a href="https://drive.google.com/file/d/1NJfxJZs9ipkzMbPyWDYLoyCf_kikCNFg/view?usp=sharing" target="_blank">
             <Button>Resume</Button>
           </a>
         </div>
@@ -120,4 +120,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 

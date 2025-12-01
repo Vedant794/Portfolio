@@ -12,23 +12,12 @@ const Projects = () => {
         "Noesis AI is a no-code tool designed to help developers quickly generate backend and frontend codebases based on simple prompts. With an easy-to-use interface, Noesis AI helps developers avoid wasting time on boilerplate code and focuses on accelerating the development process.",
       image:
         "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
-      tags: ["React", "TypeScript", "Docker", "Generative AI"],
+      tags: ["React", "TypeScript", "Docker", "Generative AI", "NodeJs"],
       liveUrl: "https://noesisai.vercel.app/",
       githubUrl: "https://github.com/Vedant794/NoesisAI",
     },
     {
       id: 2,
-      title: "NeuroStore",
-      description:
-        "NeuroStore is a file storing, sharing and editing environment where user can store their files in safe environment and can upload their local files to host it in the browser safely. We took the inspiration of building this project from DropBox.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
-      tags: ["NodeJs", "ReactJs", "AWS(S3)", "OAuth2.0"],
-      liveUrl: "https://github.com/shrey209/NeuroStore",
-      githubUrl: "https://github.com/shrey209/NeuroStore",
-    },
-    {
-      id: 3,
       title: "Corporate Pipeline using Jenkins",
       description:
         "Create a Corporate CI/CD pipeline using Jenkins for continuous integration and development. The project cover all the major tools and services like SonarQube, npm audit, docker, Promethues, Grafana, etc..",
@@ -130,3 +119,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
